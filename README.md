@@ -10,6 +10,16 @@ The project utilizes a Two-Stage Hybrid Analytical Engine to investigate SME res
 - **Stage II:** Predictive Stress-Testing using XGBoost and Random Forest.
 - **Explainability:** SHAP (SHapley Additive exPlanations) for model transparency.
 
+   ## How to Run
+1. Open the notebook in Google Colab or Jupyter Notebook
+2. Install required libraries
+3. Run all cells sequentially
+
+## Outputs
+- Feature importance rankings (RF, XGB)
+- SHAP value analysis
+- Model performance metrics
+
 ## Contents
 - `SME_Resilience_Analysis.ipynb`: The primary Google Colab/Jupyter notebook containing the full pipeline.
 - `requirements.txt`: List of necessary Python libraries (XGBoost, SHAP, Scikit-learn, etc.).
